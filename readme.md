@@ -3,3 +3,12 @@ This project will utilize the MTCNN model for face detection and employ the Face
 
 ## Abstract
 This project was created by six students from HUSC: Nguyen Luon Mong Do, Vo Dat Van, Nguyen Tien Nhat, Nguyen Ngoc Quang Huy and Nguyen Hoai Nam.
+
+
+## Installation
+
+1.Clone this respository:
+```
+    git clone https://github.com/SpiderMan-XiaoDo/ung_dung_diem_danh.git
+```
+
