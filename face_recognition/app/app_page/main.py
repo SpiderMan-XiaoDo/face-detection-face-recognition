@@ -17,27 +17,6 @@ class MultiApp:
             "title": title,
             "function": function
         })
-    # def run():
-    #     with st.sidebar:
-    #         with st.sidebar:        
-    #             app = option_menu(
-    #                 menu_title='Side bar',
-    #                 options=['Home page','Thong ke','Diem danh'],
-    #                 icons=['house-fill','person-circle','trophy-fill'],
-    #                 menu_icon='chat-text-fill',
-    #                 default_index=1,
-    #                 styles={
-    #                     "container": {"padding": "5!important","background-color":'black'},
-    #         "icon": {"color": "white", "font-size": "23px"}, 
-    #         "nav-link": {"color":"white","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "blue"},
-    #         "nav-link-selected": {"background-color": "#02ab21"},}
-    #             )
-    #     if app == "Home page":
-    #         homepage.app()
-    #     if app == "Thong ke":
-    #         statistic_studient.app()
-    #     if app == "Diem danh":
-    #         giaodiendiemdan.giaodien()
     def run():
         if 'refresh_flag' not in st.session_state:
             st.session_state.refresh_flag = False
